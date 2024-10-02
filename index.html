@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Promise Learning</title>
+</head>
+
+<body>
+    <button id="btnRes">Resolve</button>
+    <button id="btnRej">Reject</button>
+</body>
+<script>
+
+    // const myPromise = new Promise((res, rej) => {
+
+    // })
+
+    // const myPromise = new Promise((resolve, reject) => {
+    //     const resolveBtn = document.getElementById("btnRes").addEventListener("click", () => {
+    //         resolve("My Value")
+    //     })
+    //     const rejectBtn = document.getElementById("btnRej").addEventListener("click", () => {
+    //         reject("Error")
+    //     })
+    // })
+
+
+    // myPromise.then(res => console.log(res))
+    // .catch(err => console.log(err))
+
+
+    async function fn(name) {
+
+        return 'Hello ' + name
+    }
+
+
+    const res = fn("Sagar")
+    console.log(res);
+
+     res.then(d => console.log(d))
+
+
+
+</script>
+
+</html>

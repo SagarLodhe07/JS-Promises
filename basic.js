@@ -64,6 +64,8 @@ async function getAllUser() {
   }
 }
 
-getAllUser();
+// getAllUser();
 
 // const promiseFour = new Promise((resolve, reject) => {});
+
+
